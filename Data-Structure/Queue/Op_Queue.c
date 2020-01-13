@@ -5,7 +5,7 @@
 void main()
 {
     int queue[n],ch=1,front=0,rear=0,i,j=1,x=n;
-    printf("Performing Queue Operations");
+    printf("Performing Queue Operations: ");
     printf("\n1.Insertion \n2.Deletion \n3.Display \n4.Exit");
     while(ch)
     {
