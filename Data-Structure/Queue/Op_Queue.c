@@ -14,33 +14,33 @@ void main()
         {
         case 1:
             if(rear==x)
-                printf("\n Queue is Full");
+                printf("\nQueue is Full");
             else
             {
-                printf("\n Enter no %d:",j++);
+                printf("\nEnter no %d:",j++);
                 scanf("%d",&queue[rear++]);
             }
             break;
         case 2:
             if(front==rear)
             {
-                printf("\n Queue is empty");
+                printf("\nQueue is empty");
             }
             else
             {
-                printf("\n Deleted Element is %d",queue[front++]);
+                printf("\nDeleted Element is %d",queue[front++]);
                 x++;
             }
             break;
         case 3:
-            printf("\n Queue Elements are:\n ");
+            printf("\nQueue Elements are:\n ");
             if(front==rear)
-                printf("\n Queue is Empty");
+                printf("\nQueue is Empty");
             else
             {
                 for(i=front; i<rear; i++)
                 {
-                    printf("%d",queue[i]);
+                    printf("%4d",queue[i]);
                     printf("\n");
                 }
                 break;
